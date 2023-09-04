@@ -1,4 +1,4 @@
-from Xiao import xiao_charachter
+from Xiao import xiao_character
 from ruben import ruben_character
 from sofia import sofia_character
 from Kelt import kelt_character
