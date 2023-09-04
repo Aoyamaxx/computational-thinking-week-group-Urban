@@ -1,7 +1,7 @@
 from Sebastian import sebastian_character
-from ruben import Rruben_character
-from sofia import sofia_character
-from Kelt import kelt_character
+from ruben import Ruben, ruben_character
+from sofia import Sofia, sofia_character
+from Kelt import Kelt, kelt_character
 
 def Xiao():
     return "Xiao"
