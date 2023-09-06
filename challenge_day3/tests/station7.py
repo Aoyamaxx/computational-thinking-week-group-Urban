@@ -16,4 +16,4 @@ def solution_station_7(exp):
     
     result = eval(exp, {}, sol_dict)
     
-    return print(round(result, 2))
+    return float(result)
