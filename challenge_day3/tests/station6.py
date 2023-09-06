@@ -1,3 +1,6 @@
+def solution_station_6(x):
+    import math
 
-def solution_station_6():
-    return
+    output = math.sin(x)
+
+    return output
