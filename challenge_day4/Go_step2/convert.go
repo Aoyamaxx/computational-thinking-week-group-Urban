@@ -9,7 +9,7 @@ import (
 )
 
 type Person struct {
-	Name           string `json:"name"`
+	Name            string     `json:"name"`
 	TechnicalSkills float64    `json:"Technical methods"`
 	SoftSkills      float64    `json:"Soft Skills"`
 	BusinessSkills  float64    `json:"Business Skills"`
@@ -23,7 +23,7 @@ type People struct {
 
 func main() {
 	// Read the JSON file
-	jsonFile, err := os.Open("data2.json")
+	jsonFile, err := os.Open("../testdata/data2.json")
 	if err != nil {
 		fmt.Println("Error:", err)
 		return
